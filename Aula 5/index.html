@@ -1,0 +1,45 @@
+<html>
+<link href="https://lara-portilho.github.io/ImersaoDev-Alura-Aula5/style.css" rel="stylesheet" />
+<script src="https://lara-portilho.github.io/ImersaoDev-Alura-Aula5/script.js"></script>
+
+<head>
+    <title>
+        Imersão Dev - Aula 05
+    </title>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="page-title">
+            Aluraflix
+        </h1>
+        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-aluraflix.svg" class="page-logo"
+            alt="">
+        <p class="page-subtitle">
+            Qual seu anime favorito?
+        </p>
+        <div class="form-wrapper">
+            <input type="text" id="animeNome" name="animeNome" placeholder="Nome do anime"><br>
+            <input type="text" id="animeLink" name="animeLink" placeholder="Link do anime no My Anime List"><br>
+            <input type="text" id="animeCapa" name="animeCapa" placeholder="Endereço da imagem da capa">
+            <button onClick="adicionarAnime()">Adicionar Anime</button>
+        </div>
+    </div>
+     <section id="place">
+      <div id="placeNome"></div><br>
+      <div id="placeLink"></div><br>
+      <div id="placeCapa"></div>
+     </section>
+     <section id="lista">
+      <button onclick="back()">Voltar</button>
+      <button onclick="next()">Próximo</button><br><br>
+      <div id="listaNome"></div><br>
+      <div id="listaLink"></div><br>
+      <div id="listaCapa"></div>
+     </section>
+    <a href="https://alura.com.br/" target="_blank">
+        <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+    </a>
+</body>
+
+</html>

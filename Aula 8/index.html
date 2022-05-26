@@ -1,0 +1,41 @@
+<html>
+<link href="https://lara-portilho.github.io/ImersaoDev-Alura-Aula8/style.css" rel="stylesheet" />
+<script src="https://lara-portilho.github.io/ImersaoDev-Alura-Aula8/script.js"></script>
+
+<head>
+    <title>
+        Imersão Dev - Aula 08
+    </title>
+</head>
+
+<body>
+    <div class="container">
+        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-super-trunfo.png" class="page-logo"
+            alt="">
+        <h1 class="page-title">Super Trunfo</h1>
+        <button onclick="sortearCarta()" id="btnSortear">Sortear carta</button>
+        <form id="form">
+          
+            <h2>Escolha o seu atributo</h2>
+            <div class="wrapper">
+                <div>
+                    <div id="carta-jogador">
+                      <img src="https://i.pinimg.com/736x/7b/bf/c3/7bbfc36f362e8738034b46c766ac2fc0.jpg"
+                            style=" width: inherit; height: inherit; position: absolute;">
+                        <h3></h3>
+                    </div>
+                </div>
+                <div>
+                    <div id="carta-maquina" class="carta"><img
+                            src="https://i.pinimg.com/736x/7b/bf/c3/7bbfc36f362e8738034b46c766ac2fc0.jpg"
+                            style=" width: inherit; height: inherit; position: absolute;"></div>
+                </div>
+            </div>
+            
+            <div id="resultado"></div>
+            <button class="button-jogar" type="button" id="btnJogar" onclick="jogar()" disabled="false">Jogar</button>
+        </form>
+    </div>
+</body>
+
+</html>
